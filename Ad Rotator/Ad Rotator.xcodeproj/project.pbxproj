@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CD08DFD1D127BB60091B971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD08DFC1D127BB60091B971 /* main.m */; };
+		3CD08E001D127BB60091B971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD08DFF1D127BB60091B971 /* AppDelegate.m */; };
+		3CD08E031D127BB60091B971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD08E021D127BB60091B971 /* ViewController.m */; };
+		3CD08E061D127BB60091B971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD08E041D127BB60091B971 /* Main.storyboard */; };
+		3CD08E081D127BB60091B971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD08E071D127BB60091B971 /* Assets.xcassets */; };
+		3CD08E0B1D127BB60091B971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD08E091D127BB60091B971 /* LaunchScreen.storyboard */; };
+		3CD08E161D127BB60091B971 /* Ad_RotatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD08E151D127BB60091B971 /* Ad_RotatorTests.m */; };
+		3CD08E211D127BB60091B971 /* Ad_RotatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD08E201D127BB60091B971 /* Ad_RotatorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CD08E121D127BB60091B971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD08DF01D127BB60091B971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD08DF71D127BB60091B971;
+			remoteInfo = "Ad Rotator";
+		};
+		3CD08E1D1D127BB60091B971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CD08DF01D127BB60091B971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CD08DF71D127BB60091B971;
+			remoteInfo = "Ad Rotator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CD08DF81D127BB60091B971 /* Ad Rotator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ad Rotator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD08DFC1D127BB60091B971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CD08DFE1D127BB60091B971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3CD08DFF1D127BB60091B971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3CD08E011D127BB60091B971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CD08E021D127BB60091B971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CD08E051D127BB60091B971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CD08E071D127BB60091B971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CD08E0A1D127BB60091B971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CD08E0C1D127BB60091B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD08E111D127BB60091B971 /* Ad RotatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad RotatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD08E151D127BB60091B971 /* Ad_RotatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ad_RotatorTests.m; sourceTree = "<group>"; };
+		3CD08E171D127BB60091B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD08E1C1D127BB60091B971 /* Ad RotatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ad RotatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD08E201D127BB60091B971 /* Ad_RotatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ad_RotatorUITests.m; sourceTree = "<group>"; };
+		3CD08E221D127BB60091B971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CD08DF51D127BB60091B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E0E1D127BB60091B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E191D127BB60091B971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CD08DEF1D127BB60091B971 = {
+			isa = PBXGroup;
+			children = (
+				3CD08DFA1D127BB60091B971 /* Ad Rotator */,
+				3CD08E141D127BB60091B971 /* Ad RotatorTests */,
+				3CD08E1F1D127BB60091B971 /* Ad RotatorUITests */,
+				3CD08DF91D127BB60091B971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CD08DF91D127BB60091B971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD08DF81D127BB60091B971 /* Ad Rotator.app */,
+				3CD08E111D127BB60091B971 /* Ad RotatorTests.xctest */,
+				3CD08E1C1D127BB60091B971 /* Ad RotatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CD08DFA1D127BB60091B971 /* Ad Rotator */ = {
+			isa = PBXGroup;
+			children = (
+				3CD08DFE1D127BB60091B971 /* AppDelegate.h */,
+				3CD08DFF1D127BB60091B971 /* AppDelegate.m */,
+				3CD08E011D127BB60091B971 /* ViewController.h */,
+				3CD08E021D127BB60091B971 /* ViewController.m */,
+				3CD08E041D127BB60091B971 /* Main.storyboard */,
+				3CD08E071D127BB60091B971 /* Assets.xcassets */,
+				3CD08E091D127BB60091B971 /* LaunchScreen.storyboard */,
+				3CD08E0C1D127BB60091B971 /* Info.plist */,
+				3CD08DFB1D127BB60091B971 /* Supporting Files */,
+			);
+			path = "Ad Rotator";
+			sourceTree = "<group>";
+		};
+		3CD08DFB1D127BB60091B971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CD08DFC1D127BB60091B971 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CD08E141D127BB60091B971 /* Ad RotatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD08E151D127BB60091B971 /* Ad_RotatorTests.m */,
+				3CD08E171D127BB60091B971 /* Info.plist */,
+			);
+			path = "Ad RotatorTests";
+			sourceTree = "<group>";
+		};
+		3CD08E1F1D127BB60091B971 /* Ad RotatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CD08E201D127BB60091B971 /* Ad_RotatorUITests.m */,
+				3CD08E221D127BB60091B971 /* Info.plist */,
+			);
+			path = "Ad RotatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CD08DF71D127BB60091B971 /* Ad Rotator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD08E251D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad Rotator" */;
+			buildPhases = (
+				3CD08DF41D127BB60091B971 /* Sources */,
+				3CD08DF51D127BB60091B971 /* Frameworks */,
+				3CD08DF61D127BB60091B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ad Rotator";
+			productName = "Ad Rotator";
+			productReference = 3CD08DF81D127BB60091B971 /* Ad Rotator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CD08E101D127BB60091B971 /* Ad RotatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD08E281D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad RotatorTests" */;
+			buildPhases = (
+				3CD08E0D1D127BB60091B971 /* Sources */,
+				3CD08E0E1D127BB60091B971 /* Frameworks */,
+				3CD08E0F1D127BB60091B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD08E131D127BB60091B971 /* PBXTargetDependency */,
+			);
+			name = "Ad RotatorTests";
+			productName = "Ad RotatorTests";
+			productReference = 3CD08E111D127BB60091B971 /* Ad RotatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CD08E1B1D127BB60091B971 /* Ad RotatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD08E2B1D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad RotatorUITests" */;
+			buildPhases = (
+				3CD08E181D127BB60091B971 /* Sources */,
+				3CD08E191D127BB60091B971 /* Frameworks */,
+				3CD08E1A1D127BB60091B971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CD08E1E1D127BB60091B971 /* PBXTargetDependency */,
+			);
+			name = "Ad RotatorUITests";
+			productName = "Ad RotatorUITests";
+			productReference = 3CD08E1C1D127BB60091B971 /* Ad RotatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CD08DF01D127BB60091B971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = King;
+				TargetAttributes = {
+					3CD08DF71D127BB60091B971 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VV3F2YPJ5B;
+					};
+					3CD08E101D127BB60091B971 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VV3F2YPJ5B;
+						TestTargetID = 3CD08DF71D127BB60091B971;
+					};
+					3CD08E1B1D127BB60091B971 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = VV3F2YPJ5B;
+						TestTargetID = 3CD08DF71D127BB60091B971;
+					};
+				};
+			};
+			buildConfigurationList = 3CD08DF31D127BB60091B971 /* Build configuration list for PBXProject "Ad Rotator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CD08DEF1D127BB60091B971;
+			productRefGroup = 3CD08DF91D127BB60091B971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CD08DF71D127BB60091B971 /* Ad Rotator */,
+				3CD08E101D127BB60091B971 /* Ad RotatorTests */,
+				3CD08E1B1D127BB60091B971 /* Ad RotatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CD08DF61D127BB60091B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD08E0B1D127BB60091B971 /* LaunchScreen.storyboard in Resources */,
+				3CD08E081D127BB60091B971 /* Assets.xcassets in Resources */,
+				3CD08E061D127BB60091B971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E0F1D127BB60091B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E1A1D127BB60091B971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CD08DF41D127BB60091B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD08E031D127BB60091B971 /* ViewController.m in Sources */,
+				3CD08E001D127BB60091B971 /* AppDelegate.m in Sources */,
+				3CD08DFD1D127BB60091B971 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E0D1D127BB60091B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD08E161D127BB60091B971 /* Ad_RotatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD08E181D127BB60091B971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD08E211D127BB60091B971 /* Ad_RotatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CD08E131D127BB60091B971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD08DF71D127BB60091B971 /* Ad Rotator */;
+			targetProxy = 3CD08E121D127BB60091B971 /* PBXContainerItemProxy */;
+		};
+		3CD08E1E1D127BB60091B971 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CD08DF71D127BB60091B971 /* Ad Rotator */;
+			targetProxy = 3CD08E1D1D127BB60091B971 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CD08E041D127BB60091B971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD08E051D127BB60091B971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CD08E091D127BB60091B971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CD08E0A1D127BB60091B971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CD08E231D127BB60091B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CD08E241D127BB60091B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CD08E261D127BB60091B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ad Rotator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-Rotator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CD08E271D127BB60091B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ad Rotator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-Rotator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CD08E291D127BB60091B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ad RotatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-RotatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Rotator.app/Ad Rotator";
+			};
+			name = Debug;
+		};
+		3CD08E2A1D127BB60091B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ad RotatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-RotatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ad Rotator.app/Ad Rotator";
+			};
+			name = Release;
+		};
+		3CD08E2C1D127BB60091B971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ad RotatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-RotatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ad Rotator";
+			};
+			name = Debug;
+		};
+		3CD08E2D1D127BB60091B971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ad RotatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.king.Ad-RotatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ad Rotator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CD08DF31D127BB60091B971 /* Build configuration list for PBXProject "Ad Rotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD08E231D127BB60091B971 /* Debug */,
+				3CD08E241D127BB60091B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD08E251D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad Rotator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD08E261D127BB60091B971 /* Debug */,
+				3CD08E271D127BB60091B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CD08E281D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad RotatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD08E291D127BB60091B971 /* Debug */,
+				3CD08E2A1D127BB60091B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CD08E2B1D127BB60091B971 /* Build configuration list for PBXNativeTarget "Ad RotatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CD08E2C1D127BB60091B971 /* Debug */,
+				3CD08E2D1D127BB60091B971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CD08DF01D127BB60091B971 /* Project object */;
+}
